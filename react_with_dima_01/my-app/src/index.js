@@ -7,7 +7,9 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    After root Посмотри Откуда *??* это Берётся?!!
     <App />
+    Before root Посмотри Откуда *??* это Берётся?!!
   </React.StrictMode>
 );
 
